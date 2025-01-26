@@ -1,0 +1,14 @@
+birthYear = int(input("What year were you born?  >  "))
+
+if birthYear >= 1924 and birthYear <= 1946:
+  print("Your Generation are the Traditionalists")
+elif birthYear >= 1947 and birthYear <= 1964:
+  print("Your Generation are the Baby Boomers")
+elif birthYear >= 1965 and birthYear <= 1981:
+  print("Your Generation is Generation X")
+elif birthYear >= 1982 and birthYear <= 1995:
+  print("Your Generation are the Millenials")
+elif birthYear >= 1996 and birthYear <= 2015:
+  print("Your Generation is Generation Z")
+else: 
+  print("Geez, you're so young!")
